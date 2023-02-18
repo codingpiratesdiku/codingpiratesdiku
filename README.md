@@ -6,4 +6,4 @@ Hovedrepo for Coding Pirates DIKU.
 ## Andre sider på GitHub
 
 - [Coding Pirates (hovedforeningen)](https://github.com/CodingPirates)
-- [Datalogi for alle](https://github.com/DatalogiForAlle)
+- [Datalogi for alle (Københavns Universitet)](https://github.com/DatalogiForAlle)
