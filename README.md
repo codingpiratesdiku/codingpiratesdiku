@@ -2,6 +2,9 @@
 
 Hovedrepo for Coding Pirates DIKU.
 
+Formålet med denne organisation er at have et sted at dele kode og
+information for Coding Pirates-projekter der har brug for det.
+
 
 ## Andre sider på GitHub
 
