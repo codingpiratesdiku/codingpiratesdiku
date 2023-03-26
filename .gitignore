@@ -1,0 +1,8 @@
+# Vscode
+.vscode
+
+# Virtual environment
+.venv
+
+# MAC specific
+.DS_Store
