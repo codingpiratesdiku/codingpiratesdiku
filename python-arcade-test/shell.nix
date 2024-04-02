@@ -6,6 +6,6 @@ mkShell {
 
   shellHook = ''
     export LD_LIBRARY_PATH="${pkgs.libglvnd}/lib:${pkgs.xorg.libX11}/lib:${pkgs.freetype}/lib";
-    . .venv/bin/activate
+    . .venv/bin/activate # Guide: https://api.arcade.academy/en/latest/install/linux.html
   '';
 }
