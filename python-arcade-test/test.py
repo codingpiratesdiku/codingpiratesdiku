@@ -32,6 +32,11 @@ class MyGame(arcade.Window):
         self.player_sprite.center_y = 128
         self.player_list.append(self.player_sprite)
 
+        other_player_sprite = arcade.Sprite(image_source, CHARACTER_SCALING * 2)
+        other_player_sprite.center_x = 264
+        other_player_sprite.center_y = 128 + 64
+        self.player_list.append(other_player_sprite)
+
         # Create the ground
         # This shows using a loop to place multiple sprites horizontally
         for x in range(0, 1250, 64):
