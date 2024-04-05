@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# Se https://api.arcade.academy/en/latest/install/index.html for hjælp til installation.
 import arcade
 
 SCREEN_WIDTH = 1000
