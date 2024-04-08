@@ -7,13 +7,14 @@ SCREEN_WIDTH = 1000
 SCREEN_HEIGHT = 650
 SCREEN_TITLE = "Bee game"
 
-PLAYER_SCALING = 1 # Spilleren er normal størrelse.
+PLAYER_SCALING = 1  # Spilleren er normal størrelse.
 PLAYER_MOVEMENT_SPEED = 5
 
-BEE_SCALING = 2 # Bien er dobbelt størrelse.
+BEE_SCALING = 2  # Bien er dobbelt størrelse.
 BEE_MOVEMENT_SPEED = 3
 
-TILE_SCALING = 0.5 # Græs og kasser er halv størrelse.
+TILE_SCALING = 0.5  # Græs og kasser er halv størrelse.
+
 
 class BeeGame(arcade.Window):
     def __init__(self):
@@ -106,6 +107,7 @@ class BeeGame(arcade.Window):
         # Tegn score-teksten.
         self.gui_camera.use()
         arcade.draw_text(f'Score: {self.score}', 10, 10, arcade.csscolor.WHITE, 28)
+
 
 # Start og kør spillet.
 window = BeeGame()
