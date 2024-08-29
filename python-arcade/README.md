@@ -43,5 +43,6 @@ Prøv at ændre nogle af tallene og se hvad der sker.  Det er ikke så vigtigt h
 
 ## Flere guides
 
+- Tegn træer: https://api.arcade.academy/en/latest/examples/drawing_with_loops.html#drawing-with-loops
 - Følg Platformer-tutorial (engelsk): https://api.arcade.academy/en/latest/examples/platform_tutorial/index.html
 - Se indbyggede resourcer: https://api.arcade.academy/en/latest/resources.html
