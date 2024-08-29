@@ -2,6 +2,7 @@
 
 # Se https://api.arcade.academy/en/latest/install/index.html for hjælp til installation.
 import arcade
+import random
 
 SCREEN_WIDTH = 1000
 SCREEN_HEIGHT = 650
@@ -56,7 +57,7 @@ class BeeGame(arcade.Window):
         self.bee_sprite = arcade.Sprite(':resources:images/enemies/bee.png', BEE_SCALING)
         self.all_bee_sprites = arcade.SpriteList()
         self.all_bee_sprites.append(self.bee_sprite)
-        self.bee_sprite.center_x = 64 * 6
+        self.bee_sprite.center_x = 64 * random.randint(1, 7)
         self.bee_sprite.center_y = 64 * 8
         self.bee_physics = arcade.PhysicsEnginePlatformer(
             self.bee_sprite, gravity_constant=1, walls=self.wall_list)
