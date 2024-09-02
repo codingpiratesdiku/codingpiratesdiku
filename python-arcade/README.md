@@ -2,7 +2,9 @@
 
 ## Installation
 
-For at kode Python skal du først installere nogle ting:
+Vi skal installere Python, som er et *programmeringssprog*, og arcade, som er et *bibliotek* til Python som gør at man kan tegne grafik.
+
+For at kode Python med arcade skal vi også installere Visual Studio Code, som vi bruger til at skrive Python-kode.
 
 1. Installér Visual Studio Code: https://code.visualstudio.com/ (medmindre du allerede er vant til at skrive kode i noget andet)
 2. Installér Python **version 3.11** (dette er ikke den helt nyeste version, men det er vigtigt for at arcade kan virke):
