@@ -5,7 +5,10 @@
 For at kode Python skal du først installere nogle ting:
 
 1. Installér Visual Studio Code: https://code.visualstudio.com/ (medmindre du allerede er vant til at skrive kode i noget andet)
-2. Installér Python **version 3.11** (version vigtigt for at arcade kan virke): https://www.python.org/downloads/
+2. Installér Python **version 3.11** (dette er ikke den helt nyeste version, men det er vigtigt for at arcade kan virke):
+    - Windows: https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe
+    - macOS: https://www.python.org/ftp/python/3.11.9/python-3.11.9-macos11.pkg
+    - Ubuntu: Her kan det godt være at den nyeste udgave (Python 3.12) er okay, så prøv den: `sudo apt install python3-full`
 3. Installér arcade: Åbn Visual Studio Code, åbn en ny terminal deri, og kør `pip install arcade`
 
 
