@@ -21,7 +21,8 @@ Dette er ikke den helt nyeste version, men det er vigtigt for at arcade kan virk
 - macOS: https://www.python.org/ftp/python/3.11.9/python-3.11.9-macos11.pkg
 - Ubuntu: Her kan det godt være at den nyeste udgave (Python 3.12) er okay, så prøv den: `sudo apt install python3-full`
 
-**Vigtigt (muligvis Windows-specifikt):** Når du installerer Python, skal du klikke i checkboxen "Add python.exe to PATH" nederst i vinduet.  Hvis du har glemt dette, kan du køre installeren igen, klikke "Modify", klikke "Next" og så klikke i checkboxen "Add Python to environment variables", og så færdiggøre installationen.
+**Vigtigt (muligvis Windows-specifikt):** Når du installerer Python, skal du klikke i checkboxen "Add python.exe to PATH" nederst i vinduet.  Hvis du har glemt dette, kan du køre installeren igen, klikke "Modify", klikke "Next" og så klikke i checkboxen "Add Python to environment variables", og så færdiggøre installationen. 
+Det kan også være nødvendigt at sørge for at Windows tillader dig at køre denne version af python. Åben startmenuen og skriv "Administrer appens kørselsaliasser" og klik. Sørg for at "python.exe" og "python3.exe" er slået fra.  
 
 
 ### 3. Installér arcade
