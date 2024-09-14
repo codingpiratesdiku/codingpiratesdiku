@@ -4,7 +4,7 @@
 import arcade
 
 # Lav et vindue:
-arcade.open_window(800, 600, "Tegn en enkelt linje")
+arcade.open_window(800, 600, "Tegn et ur")
 arcade.set_background_color(arcade.color.WHITE)
 arcade.start_render()
 
