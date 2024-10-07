@@ -63,6 +63,24 @@ Det skal gerne se sådan her ud hvis det virker:
 
 Prøv at ændre nogle af tallene og se hvad der sker.  Det er ikke så vigtigt hvad de gør, bare prøv at ændre det billede du får.
 
+## Lav programfil til Windows
+
+Når du har lavet dit spil, vil du sikkert gerne dele det med andre. Du
+kan lave dit spil om til en enkelt fil som kan køres direkte fra
+Windows med programmet `pyinstaller`.
+
+Pyinstaller kan installeres på samme måde som arcade, så åbn en
+terminal ligesom den hvor arcade blev installeret og skriv `pip
+install pyinstaller`.
+
+Efter at pyinstaller er installeret, kan vi lave det om til en .exe
+fil ved at skrive følgende i samme terminal:
+
+`python -m PyInstaller spil.py --onefile -w`
+
+Hvor `spil.py` er navnet på filen med dit spil. Hvis alt går godt,
+skulle du have en fil der hedder `spil.exe` i en ny mappe der hedder
+dist.
 
 ## Flere guides
 
