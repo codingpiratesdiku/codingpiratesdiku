@@ -25,7 +25,7 @@ For at kunne lave projekterne er det nødvendigt at lære noget
 grundlæggende Python.  Det vil vi gøre i løbet af projekterne.
 
 
-## Projekt: Lav din egen Google-søgemaskine
+## Projekt: Lav din egen søgemaskine (ligesom Google)
 
 Emner: webcrawling, tekstbehandling, filer
 
