@@ -19,7 +19,8 @@ tastatur.
 Python er et programmeringssprog.
 
 I denne workshop vil vi lave forskellige Python-projekter der handler om
-at bruge styresystemet.
+at bruge styresystemet.  Vi har nogle forslag længere nede, men det er
+bare forslag.
 
 For at kunne lave projekterne er det nødvendigt at lære noget
 grundlæggende Python.  Det vil vi gøre i løbet af projekterne.
@@ -30,6 +31,25 @@ grundlæggende Python.  Det vil vi gøre i løbet af projekterne.
 Python er et meget udbredt programmeringssprog, så der findes mange online steder hvor man kan lære det.  Vi skal nok hjælpe alle igennem.  Her er også nogle links:
 
   - [Pythons dokumentation](https://docs.python.org/3/): Beskriver hele Python, men ikke så begyndervenligt.  Nyttigt hvis man har en god idé om hvad man leder efter.  Det er på engelsk.
+
+
+## Installér Python
+
+- Windows: https://www.python.org/ftp/python/3.12.8/python-3.12.8-amd64.exe
+- macOS: https://www.python.org/ftp/python/3.12.8/python-3.12.8-macos11.pkg
+- Ubuntu: `sudo apt install python3-full`
+
+**Vigtigt for Windows:** Når du installerer Python, skal du klikke i checkboxen "Add python.exe to PATH" nederst i vinduet.  Hvis du har glemt dette, kan du køre installeren igen, klikke "Modify", klikke "Next" og så klikke i checkboxen "Add Python to environment variables", og så færdiggøre installationen.
+Det kan også være nødvendigt at sørge for at Windows tillader dig at køre denne version af python. Åben startmenuen og skriv "Administrer appens kørselsaliasser" og klik. Sørg for at "python.exe" og "python3.exe" er slået fra.
+
+
+## Installér en editor
+
+I denne workshop vil vi køre Python fra filer.  Det betyder at du skal skrive din Python-kode i en fil.  For at skrive i en fil skal man bruge en editor.  Der er mange editors.  Du kan vælge en af:
+
+  - [Visual Studio Code](https://code.visualstudio.com/): Det populære valg.
+  - Notepad++: Lidt simplere.
+  - Emacs eller vim: Ældre og tager lidt tid at lære, men stadig godt.
 
 
 ## Projekt: Lav din egen søgemaskine (ligesom Google)
