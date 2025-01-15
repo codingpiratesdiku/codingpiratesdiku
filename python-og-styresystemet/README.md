@@ -30,7 +30,7 @@ grundlæggende Python.  Det vil vi gøre i løbet af projekterne.
 Emner: webcrawling, tekstbehandling, filer
 
 Python-dokumentation:
-  - [String Methods](https://docs.python.org/3.13/library/stdtypes.html#string-methods): Funktioner til at ændre tekst.
+  - [String Methods](https://docs.python.org/3/library/stdtypes.html#string-methods): Funktioner til at ændre tekst.
 
 Python-pakker:
   - [requests](https://docs.python-requests.org/en/latest/index.html): Kode til at lave forespørgsler over nettet.
@@ -46,7 +46,7 @@ import urllib.request
 Emner: HTML, billedformater, filer
 
 Python-dokumentation:
-  - [Format String Syntax](https://docs.python.org/3.13/library/string.html#formatstrings): En smart måde at sætte variabler ind i tekst.
+  - [Format String Syntax](https://docs.python.org/3/library/string.html#formatstrings): En smart måde at sætte variabler ind i tekst.
 
 Python-pakker:
   - [Pillow](https://pillow.readthedocs.io/en/stable/index.html): Kode til at arbejde med billeder.
@@ -62,7 +62,7 @@ import os.path
 Emner: matematik, bytes, filer
 
 Python-dokumentation:
-  - [Binary Sequence Types](https://docs.python.org/3.13/library/stdtypes.html#binary-sequence-types-bytes-bytearray-memoryview): Pythons måde at håndtere low-level bytes på.
+  - [Binary Sequence Types](https://docs.python.org/3/library/stdtypes.html#binary-sequence-types-bytes-bytearray-memoryview): Pythons måde at håndtere low-level bytes på.
 
 ```python
 import sys
