@@ -33,7 +33,7 @@ Python-dokumentation:
   - [String Methods](https://docs.python.org/3/library/stdtypes.html#string-methods): Funktioner til at ændre tekst.
 
 Python-pakker:
-  - [requests](https://docs.python-requests.org/en/latest/index.html): Kode til at lave forespørgsler over nettet.
+  - [urllib.request](https://docs.python.org/3/library/urllib.request.html): Kode til at lave forespørgsler over nettet.
 
 Startkode:
 
