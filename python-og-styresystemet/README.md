@@ -34,6 +34,8 @@ Python er et meget udbredt programmeringssprog, så der findes mange online sted
 
 ## Projekt: Lav din egen søgemaskine (ligesom Google)
 
+Til dette projekt skal du lave et program der kan finde ud af hvilke sider der linker til hvilke andre sider på internettet, og hvad der er på de sider.  Al den information kan du gemme på din computer, og så bruge til at søge frem hvor forskellige ord er nævnt.  Med andre ord: en søgemaskine.
+
 Emner: webcrawling, tekstbehandling, filer
 
 Python-dokumentation:
@@ -50,6 +52,8 @@ import urllib.request
 
 ## Projekt: Fjernstyr din computer
 
+Til dette projekt skal du lave et program der kan køre på din computer og udføre handlinger som en person på en anden computer giver.
+
 Emner: netværk, sikkerhed
 
 Python-pakker:
@@ -63,6 +67,8 @@ import socket
 ```
 
 ## Projekt: Generér en hjemmeside til at vise billeder
+
+Til dette projekt skal du automatisk lave en slags galleri af billeder som kan vises på internettet.
 
 Emner: HTML, billedformater, filer
 
@@ -79,6 +85,8 @@ import os.path
 ```
 
 ## Projekt: Komprimering og kryptering
+
+Til dette projekt skal du lege med hvordan man kan skjule hemmeligheder for hinanden og hvordan man kan få tekst og andet til at fylde mindre.
 
 Emner: matematik, bytes, filer
 
