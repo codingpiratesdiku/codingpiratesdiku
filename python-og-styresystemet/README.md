@@ -63,11 +63,18 @@ Python-dokumentation:
 
 Python-pakker:
   - [urllib.request](https://docs.python.org/3/library/urllib.request.html): Kode til at lave forespørgsler over nettet.
+  - [re](https://docs.python.org/3/library/re.html): Kode til at lave regexes, som er smarte små udtryk til at ændre tekst.
 
 Startkode:
 
 ```python
 import urllib.request
+import re
+
+# Find alle HTML's <a>-link-tags på DRs nyheder.
+stream = urllib.request.urlopen('https://dr.dk/nyheder')
+for a_tag in re.findall(br'<a[^>]*>', stream.read()):
+    print(a_tag)
 ```
 
 ## Projekt: Fjernstyr din computer
@@ -77,14 +84,18 @@ Til dette projekt skal du lave et program der kan køre på din computer og udf�
 Emner: netværk, sikkerhed
 
 Python-pakker:
-  - [socket](https://docs.python.org/3/library/socket.html)
-  - [socketserver](https://docs.python.org/3/library/socketserver.html)
+  - [socket](https://docs.python.org/3/library/socket.html): Kode til at sætte en server op.
+  - [socketserver](https://docs.python.org/3/library/socketserver.html): Det samme som med socket, men lidt mere kompliceret.
 
 Startkode:
 
 ```python
 import socket
 ```
+
+- Første trin: Kopiér koden for "Echo server program" fra https://docs.python.org/3/library/socket.html#example ind her.
+- Næste trin: Lav en ny fil og kopiér koden for "Echo client program" ind der.  Så skal du lære lidt om terminalen og om hvordan man kan køre begge programmer, så de kan tale med hinanden (spørg os om hjælp). På sigt er det meningen at klient-programmet skal køre på en anden computer, men i starten er det nemmest at begge programmer kører på samme computer.
+- Derefter: "Echo server program" skriver bare den tekst som den modtager. I stedet for at skrive teksten, vil vi gerne have at programmet **kører en kommando**, for eksempel åbner et billede eller en hjemmeside eller noget helt andet.  Hvad er en sjov idé her?
 
 ## Projekt: Generér en hjemmeside til at vise billeder
 
@@ -101,8 +112,14 @@ Python-pakker:
 Startkode:
 
 ```python
-import os.path
+import glob
+
+print(glob.glob('*.jpg'))
 ```
+
+- Første trin: Find de billeder som skal vises i galleriet.  Hvilke filtyper har de?  JPEG?  WebP?  Noget andet?
+- Næste trin: Sørg for at dit Python-program kan finde dem alle sammen.
+- Derefter: Byg HTML-kode der kan vise dem (vi skal nok forklare hvad HTML er).
 
 ## Projekt: Komprimering og kryptering
 
@@ -114,5 +131,19 @@ Python-dokumentation:
   - [Binary Sequence Types](https://docs.python.org/3/library/stdtypes.html#binary-sequence-types-bytes-bytearray-memoryview): Pythons måde at håndtere low-level bytes på.
 
 ```python
-import sys
+tekst = input()
+print(f'Du indtastede: {tekst}')
+
+hemmelig_tekst = ''
+for tegn in tekst:
+    tegn_tal = ord(tegn)
+    tegn_tal_hemmelig = tegn_tal + 1
+    tegn_hemmelig = chr(tegn_tal_hemmelig)
+    hemmelig_tekst += tegn_hemmelig
+
+print(f'Din hemmelige tekst er: {hemmelig_tekst}')
 ```
+
+- Første trin: Prøv at forstå hvad koden her gør (spørg os om hjælp).
+- Andet trin: Koden laver tekst om til hemmelig tekst. Prøv at find en måde at lave den hemmelige tekst **tilbage** til almindelig tekst, og skriv det med `print`.
+- Derefter: Der er mange forskellige måder at lave det her på, så spørg os for idéer til hvad man kan arbejde med.
