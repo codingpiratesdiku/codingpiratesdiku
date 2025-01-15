@@ -27,16 +27,29 @@ grundlæggende Python.  Det vil vi gøre i løbet af projekterne.
 
 ## Projekt: Lav din egen Google-søgemaskine
 
-Koncepter: webcrawling, tekstbehandling, filer
+Emner: webcrawling, tekstbehandling, filer
 
-Python-bibliotek: [requests](https://docs.python-requests.org/en/latest/index.html)
+Python-dokumentation:
+  - [String Methods](https://docs.python.org/3.13/library/stdtypes.html#string-methods): Funktioner til at ændre tekst.
+
+Python-pakker:
+  - [requests](https://docs.python-requests.org/en/latest/index.html): Kode til at lave forespørgsler over nettet.
 
 
 ## Projekt: Generér en hjemmeside til at vise billeder
 
-Koncepter: HTML, billedformater, filer
+Emner: HTML, billedformater, filer
+
+Python-dokumentation:
+  - [Format String Syntax](https://docs.python.org/3.13/library/string.html#formatstrings): En smart måde at sætte variabler ind i tekst.
+
+Python-pakker:
+  - [Pillow](https://pillow.readthedocs.io/en/stable/index.html): Kode til at arbejde med billeder.
 
 
 ## Projekt: Komprimering og kryptering
 
-Koncepter: tekst, matematik, filer
+Emner: matematik, bytes, filer
+
+Python-dokumentation:
+  - [Binary Sequence Types](https://docs.python.org/3.13/library/stdtypes.html#binary-sequence-types-bytes-bytearray-memoryview): Pythons måde at håndtere low-level bytes på.
