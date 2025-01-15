@@ -25,6 +25,13 @@ For at kunne lave projekterne er det nødvendigt at lære noget
 grundlæggende Python.  Det vil vi gøre i løbet af projekterne.
 
 
+## Lær Python
+
+Python er et meget udbredt programmeringssprog, så der findes mange online steder hvor man kan lære det.  Vi skal nok hjælpe alle igennem.  Her er også nogle links:
+
+  - [Pythons dokumentation](https://docs.python.org/3/): Beskriver hele Python, men ikke så begyndervenligt.  Nyttigt hvis man har en god idé om hvad man leder efter.  Det er på engelsk.
+
+
 ## Projekt: Lav din egen søgemaskine (ligesom Google)
 
 Emner: webcrawling, tekstbehandling, filer
