@@ -35,6 +35,11 @@ Python-dokumentation:
 Python-pakker:
   - [requests](https://docs.python-requests.org/en/latest/index.html): Kode til at lave forespørgsler over nettet.
 
+Startkode:
+
+```python
+import urllib.request
+```
 
 ## Projekt: Generér en hjemmeside til at vise billeder
 
@@ -46,6 +51,11 @@ Python-dokumentation:
 Python-pakker:
   - [Pillow](https://pillow.readthedocs.io/en/stable/index.html): Kode til at arbejde med billeder.
 
+Startkode:
+
+```python
+import os.path
+```
 
 ## Projekt: Komprimering og kryptering
 
@@ -53,3 +63,7 @@ Emner: matematik, bytes, filer
 
 Python-dokumentation:
   - [Binary Sequence Types](https://docs.python.org/3.13/library/stdtypes.html#binary-sequence-types-bytes-bytearray-memoryview): Pythons måde at håndtere low-level bytes på.
+
+```python
+import sys
+```
