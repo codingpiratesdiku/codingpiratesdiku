@@ -41,6 +41,20 @@ Startkode:
 import urllib.request
 ```
 
+## Projekt: Fjernstyr din computer
+
+Emner: netværk, sikkerhed
+
+Python-pakker:
+  - [socket](https://docs.python.org/3/library/socket.html)
+  - [socketserver](https://docs.python.org/3/library/socketserver.html)
+
+Startkode:
+
+```python
+import socket
+```
+
 ## Projekt: Generér en hjemmeside til at vise billeder
 
 Emner: HTML, billedformater, filer
