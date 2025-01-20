@@ -1,5 +1,7 @@
 # Python og styresystemet
 
+**Hurtigt link:** http://kurl.dk/3b
+
 ```mermaid
 flowchart TD
     A["Styresystem<br>(Windows/Mac/Linux)"] -->|kan køre| B[Programmer]
