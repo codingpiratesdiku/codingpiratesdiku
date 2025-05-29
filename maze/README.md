@@ -11,6 +11,9 @@ Run the `start.sh` in the maze folder
 
 ```bash
 
+# Set permissions to execute the script
+chmod +x start.sh
+
 # Start The game
 . ./start.sh
 
