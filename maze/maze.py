@@ -22,7 +22,10 @@ class Wall:
 class Cell:
     def __init__(self, visited=False) -> None:
         self.visited = visited
-        self.val = " "        
+        self.val = " "
+        self.searching = False  # For BFS/DFS visualization
+        self.solution_path = False  # For final path visualization
+        self.search_color = None  # Color for search branch
 class Maze:
     def __init__(self, n: int, m: int, output=False):
         # Make sure there is an uneven amount of rows and columns such that it ends with a wall
