@@ -7,8 +7,7 @@ Side: https://p5js.org/
 
 # Start
 
-Kom godt i gang med vores guide:
-https://raw.githubusercontent.com/DatalogiForAlle/greencity/master/p5js/worksheets_p5js_nocopy.pdf
+Kom godt i gang med vores guide: [Tegn med P5.js](https://raw.githubusercontent.com/DatalogiForAlle/greencity/master/p5js/worksheets_p5js_nocopy.pdf)
 
 
 # Eksempler
